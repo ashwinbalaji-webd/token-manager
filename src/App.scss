@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  background-color: var(--background);
+
+  .ant-layout {
+    .container {
+      margin-top: -2rem;
+      background-color: var(--background);
+      border-radius: 10px 10px 0px 0px;
+      padding: 2rem;
+    }
+  }
+}

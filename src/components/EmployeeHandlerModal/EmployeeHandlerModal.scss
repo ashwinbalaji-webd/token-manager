@@ -1,0 +1,14 @@
+/* ADD EMPLOYEE MODAL */
+.ant-modal {
+    .ant-modal-header {
+        margin-block-end: 2.5rem;
+      .ant-modal-title {
+        color: var(--d-grey);
+      }
+    }
+  
+    .ant-form-item-control-input-content:has(button){
+    //   text-align: end;
+    }
+  }
+  

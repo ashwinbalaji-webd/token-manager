@@ -1,0 +1,15 @@
+.cls-header-container{
+    height: 14vh;
+    padding: 2rem;
+    padding-block-start: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    // z-index: 1;
+
+    .cls-logout-btn{
+        svg{
+            width: 2.2rem;
+            height: 2.2rem;
+        }
+    }
+}

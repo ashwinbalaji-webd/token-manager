@@ -1,0 +1,9 @@
+.cls-primary-heading {
+    margin-block-end: 1rem;
+    color: var(--d-grey);
+  & > div {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+
+}

@@ -1,0 +1,85 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+
+
+/* CUSTOM VARIBLES */
+
+body {
+  --background: #f1f1f1;
+  --primary-color: #092348;
+  --primary-color-lt: #e8f0fe;
+  --secondary-color: #d22635;
+  --tertiary-color: #f8b133;
+  --positive: #35b057;
+  --white: #fff;
+  --d-grey: #555;
+  --m-grey: rgba(0, 0, 0, 0.45);
+  --l-grey: #a8a8a8;
+  --scroll-grey : 
+}
+
+/* STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--primary-color-lt);
+
+}
+
+body {
+  height: 100vh;
+  max-width: 50rem;
+  margin : 0 auto;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* SCROLL BAR STYLING */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--l-grey);
+}
+
+/* SELECTION */
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: var(--primary-color-lt);
+}
+
+::selection {
+  color: red;
+  background: var(--primary-color-lt);
+
+}
+
+/* HELPER CLASSES */
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* COMMON STYLES */
+
+.ant-switch-inner{
+  background-color: var(--primary-color);
+}

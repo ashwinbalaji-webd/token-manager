@@ -1,0 +1,49 @@
+.cls-report-container {
+    .cls-month-picker{
+        // justify-content: end;
+        & > :first-child{
+            font-size: 1.4rem;
+            color: var(--d-grey);
+            margin-inline-end: 1rem;
+           
+        }
+    }
+
+  .ant-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-block-start: 3rem;
+
+    .ant-card-body {
+        .cls-card-header{
+            &> :first-child{
+                font-size: 1.5rem;
+                color: var(--primary-color);
+
+            }
+        }
+      .ant-card.cls-statistics-card {
+        margin-block-start: 1.6rem;
+        box-shadow: none;
+        border: 1px solid var(--l-grey);
+
+        .ant-card-body {
+          padding: 0;
+          .cls-statistics-container {
+            padding: 1rem;
+            .ant-statistic-content {
+              font-size: 1.6rem;
+
+              .ant-statistic-content-suffix{
+                color: var(--l-grey);
+              }
+            }
+          }
+        }
+      }
+
+      .cls-download {
+        margin-block-start: 2rem;
+      }
+    }
+  }
+}

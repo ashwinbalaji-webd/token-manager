@@ -1,0 +1,74 @@
+.cls-tokenManager-container {
+
+    .ant-input-search{
+
+      .ant-input-group-addon{
+        pointer-events: none;
+      }
+    }
+
+  .cls-table-container {
+    .ant-table {
+      background-color: var(--background);
+      margin-block-start: 1.4rem;
+
+      .ant-table-thead {
+        .ant-table-cell {
+          font-size: 1.2rem;
+          color: var(--l-grey);
+          background: var(--background);
+        }
+
+        .ant-table-cell-scrollbar {
+          box-shadow: none;
+        }
+      }
+
+      .ant-table-tbody {
+        border-radius: 1rem;
+        background: var(--background);
+        tr {
+          background-color: var(--white);
+
+          & > :first-child {
+            a {
+              color: var(--primary-color);
+              pointer-events: none;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+          }
+
+          & > :nth-child(2){
+            white-space: nowrap;
+          }
+
+          & > :last-child{
+              text-align: end;
+          }
+
+          .ant-table-cell {
+            span.anticon{
+                padding-inline: 2rem;
+            }
+            svg {
+              font-size: 1.8rem;
+              margin-block-start: 0.2rem;
+            }
+
+            span.cls-token-given {
+              svg {
+                color: var(--positive);
+              }
+            }
+
+            span.cls-token-not-given {
+              svg {
+                color: var(--secondary-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
